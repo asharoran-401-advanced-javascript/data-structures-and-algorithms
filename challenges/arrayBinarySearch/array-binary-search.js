@@ -3,13 +3,9 @@
 function  BinarySearch(arr , value) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === value) {
-        value = i;
+       return i;  
         }
-    } 
-        if(value>= 0){
-          return value;   
-        }else{
-          return -1 ;
-        } 
+ }
+    return -1;
 }
 module.exports = BinarySearch;
