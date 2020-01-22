@@ -6,6 +6,6 @@
 ==============================================================================================
 ## Code challange 3 - Binary Array
 
-* (pull Request): []
+* (pull Request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/2]
 * (whiteBoard): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/arrayShift/assets/brinaryArr.jpg]
 ========================================================================
