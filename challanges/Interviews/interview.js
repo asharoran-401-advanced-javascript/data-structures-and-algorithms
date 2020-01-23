@@ -33,4 +33,4 @@ function FibonacciSequence(target) {
     }
     return n1;
 }
-module.exports = {sumationArr , FibonacciSequence}
+module.exports = { sumationArr, FibonacciSequence }
