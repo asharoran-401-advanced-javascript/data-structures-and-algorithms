@@ -9,19 +9,29 @@ describe('Linked lis Module' , () =>{
     })
 
     it(' insert()' , () =>{
-       let list = new LL();
-       let initialValue = 'first item';
-       list.insert(initialValue);
-
-       expect(list.head.value).toEqual(initialValue);
-
-       let nextValue = 'second item';
-       list.insert(nextValue);
-       expect(list.head.value).toEqual(initialValue);
+        let list = new LL(); 
+        let values = [];
+        let currentList = list.head;
+        for (let i = 0; i < values.length; i++) {
+            /// we do the check here too 
+          expect(currentList.value).toBe(values[i]); 
+          currentList = currentList.next;
+        }
     })
     
-    it('includes()' , () =>{
+    describe('includes()' , () =>{
+        
+    //     it('Will return true ', () => {
+    //      let list = new LL();
+    //      let currentList = list.head;
+    //      expect(list.includes(currentList)).toEqual(list.head);
+    // });
 
+        it('Will return false when searching for a value in the linked list that does not exist', () => {
+        let list = new LL();
+        let currentList = list.head;
+        expect(list.includes(currentList)).toBeFalsy();
+    });      
     })
     // it('toSting()' , () =>{
 
