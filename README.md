@@ -22,4 +22,4 @@
 
 ## Code challange 5 - linked list
  * (pull Request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/5]
- * (whiteboard): []
+ * (whiteboard): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/linked-list/assets/linked-list.jpg]
