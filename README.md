@@ -21,5 +21,5 @@
 =======================================================================
 
 ## Code challange 5 - linked list
- * (pull Request): []
+ * (pull Request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/5]
  * (whiteboard): []
