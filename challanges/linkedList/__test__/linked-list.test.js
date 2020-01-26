@@ -36,4 +36,19 @@ describe('Linked lis Module' , () =>{
     // it('toSting()' , () =>{
 
     // })
+    it('append()' , ()=>{
+      let list = new LL();
+      //  list = list.head;
+      let intialtList ='first item';
+      console.log( 'current Listtttt ' , intialtList)
+      // currentList.next = value;
+      list.append(intialtList)
+      // console.log( 'listt consoleeeeeeeee after ()' ,list)
+      expect(list.head.value).toEqual(intialtList)
+      // console.log('list head next' , list.head.next)
+      let secandlist = 'secand item ';
+      list.append(secandlist)
+      console.log( 'listt consoleeeeeeeee ()' ,list)
+      expect(list.head.value).toEqual(intialtList)
+    });
 })
