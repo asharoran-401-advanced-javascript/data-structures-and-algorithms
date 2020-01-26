@@ -26,5 +26,5 @@
 ================================= 
 ## Code Challenge 6 - Linked list insertions.
 
-* (pull-request):[]
-* (white board): []
+* (pull-request):[https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/6]
+* (white board): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/ll-insertions/assets/code-challange-6.jpg]
