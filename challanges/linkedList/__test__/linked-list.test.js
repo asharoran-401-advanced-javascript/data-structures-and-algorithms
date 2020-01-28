@@ -51,4 +51,9 @@ describe('Linked lis Module' , () =>{
       console.log( 'listt consoleeeeeeeee ()' ,list)
       expect(list.head.value).toEqual(intialtList)
     });
-})
+
+    // it(' nthFromEnd'){
+
+    // }
+
+});

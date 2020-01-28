@@ -13,3 +13,20 @@ this challang is took time because the conspet it was not clear to me
 ## API
 insert () : to add a new node at the head of the list
 include() : it's return true/false depend on checking if the value is exist/found in the list or not 
+
+====================================================== 
+
+## Code Challange 7 - nthFromEnd 
+
+### summary
+- wwe have input k that return the node value.
+- so k will start from the end of linkedlist then wake as number
+## Approach & Efficiency
+it's need time to llnow the conspte
+
+## API
+
+nthFromEnd () : 
+1. calculate the length of linked list
+2. we need counter to callculate the list length
+3. then we can use this equation (lengrh - k +1)

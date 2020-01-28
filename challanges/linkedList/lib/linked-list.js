@@ -35,16 +35,32 @@ append(value){
       return this.head;
   }  
   let currentNode = this.head;
-//   console.log(' current value  type' , typeof currentNode);
+  console.log(' current value  type' , typeof currentNode);
   while(currentNode.next){
       currentNode = currentNode.next;
   }
   console.log('current nodeee' , currentNode)
   currentNode.next = node;
-//   console.log('nodeee value' , node);
+  console.log('nodeee value' , node);
   return this.head;
 }
-
+nthFromEnd(k){  
+  let lengthCount = 0;
+  let listLength = this.head; // the lengh of head obj
+    while(listLength.next){
+     listLength = listLength.next;
+     lengthCount++;
+     console.log('counterrrr length ' , lengthCount)
+     /// (length - k +1)
+     let kLength = lengthCount - k + 1 ;
+     if(lengthCount === kLength){
+       console.log('my goalllllllll' , listLength.value);
+       return listLength.value;
+      }
+    }
+    return `exception`;
+  }
 }
+
 
 module.exports = LinkList;
