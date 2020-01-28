@@ -17,3 +17,10 @@
 * * (pull Request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/4]
 * (whiteBoard): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/arrayShift/assets/sumationArr.jpg]
 * (whiteBoard): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/arrayShift/assets/Fibonacci.jpg]
+
+========================================================================
+
+## Code Challange 8 - Merge two linked lists.
+
+* (pull Request): []
+* (whiteBoard) : []
