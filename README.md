@@ -22,7 +22,7 @@
 
 ## Code challange 5 - linked list
  * (pull Request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/5]
- * (whiteboard): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/linked-list/assets/linked-list.jpg]
+ * (whiteboard): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/linked-list/assets/lab-05-linked-list.jpg]
 ================================= 
 ## Code Challenge 6 - Linked list insertions.
 

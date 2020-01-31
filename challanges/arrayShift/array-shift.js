@@ -1,21 +1,22 @@
+// eslint-disable-next-line strict
 'use strict';
-///////// we work as group in this to get the Idea 
+///////// we work as group in this to get the Idea
 function insertShiftArray(arr, val) {
-    let divideArr = Math.ceil(arr.length / 2);
-    //// we need to increase the arr one index to the new value (arr.length + 1)
-    let newArr = new Array(arr.length + 1);
-    for (let i = 0; i <= divideArr.length; i++) {
-        if (i === divideArr) {
-            newArr[i] = val;
-        } else {
-            newArr[i] = arr[i];
-        }
+  let divideArr = Math.ceil(arr.length / 2);
+  //// we need to increase the arr one index to the new value (arr.length + 1)
+  let newArr = new Array(arr.length + 1);
+  for (let i = 0; i <= divideArr.length; i++) {
+    if (i === divideArr) {
+      newArr[i] = val;
+    } else {
+      newArr[i] = arr[i];
     }
-    ////////// then take the divideArr part 2 
-    for (let j = divideArr; j <= arr.length - 1; j++) {
-        newArr[j + 1] = arr[j];
-    }
-    return newArr;
+  }
+  ////////// then take the divideArr part 2
+  for (let j = divideArr; j <= arr.length - 1; j++) {
+    newArr[j + 1] = arr[j];
+  }
+  return newArr;
 }
 
 module.exports = insertShiftArray;

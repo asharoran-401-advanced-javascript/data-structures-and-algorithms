@@ -1,50 +1,49 @@
+// eslint-disable-next-line strict
 'use strict';
 
 const Node = require('../lib/node.js');
 
 class LinkList {
-    constructor(){
-        this.head = null;
-    }
-
-//// we use insert() to add node at head of list /// I got some help from google to understand the conspet of insert
-   insert(value){
-       let node = new Node(value);
-      node.next = this.head;
-      this.head =node;
-      // return the new list after insert values
-      return this.head;
-   } 
-
-/// so in include we check if the value is in the list or not and return true/false depend of the result of checking 
-   includes(value){
- let currentvalue = this.head;
- while(currentvalue){
-     if(currentvalue.value === value){
-         return true;
-     }
-     currentvalue = currentvalue.next;
- }
- return false;
-   }
-
-append(value){
-  let node = new Node(value);  // add new node // the node equal the first node in the list 
-  if(!this.head){ // if the node is empty
-      this.head = node;
-      return this.head;
-  }  
-  let currentNode = this.head;
-//   console.log(' current value  type' , typeof currentNode);
-  while(currentNode.next){
-      currentNode = currentNode.next;
+  constructor(){
+    this.head = null;
   }
-  console.log('current nodeee' , currentNode)
-  currentNode.next = node;
-//   console.log('nodeee value' , node);
-  return this.head;
+
+  // ====== insert() : add a new node in the begging of list
+  insert(value){
+    let node = new Node(value);
+    this.head = node.next;
+    node = this.head;
+    console.log('my newwwww head' , this.head);
+    return this.head;
+  }
+  /// so in include we check if the value is in the list or not and return true/false depend of the result of checking
+  include(value){
+    let targetValue = this.head;
+    while(targetValue){
+      if(targetValue.value === value){
+        return true;
+      }
+      targetValue = targetValue.next;
+    }
+    return false;
+  }
+  // ====== to print out our list values /////
+  toString(){
+    let node = this.head;
+    let values = [];
+    while(node){
+      values.push(node.value);
+      node = node.next;
+    }
+    for (let i = 0; i < values.length; i++) {
+      let printValues =  values[i] + '->';
+      console.log('prinnnnnnnnnnt' , printValues);
+      return printValues;
+    }
+    console.log('my vaaaalue' , values);
+    return values;
+  }
 }
 
-}
 
 module.exports = LinkList;
