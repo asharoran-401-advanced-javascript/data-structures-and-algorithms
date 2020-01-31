@@ -4,79 +4,46 @@
 const Node = require('../lib/node.js');
 
 class LinkList {
-<<<<<<< HEAD
   constructor(){
     this.head = null;
   }
-  //// we use insert() to add node at head of list /// I got some help from google to understand the conspet of insert
+
+  // ====== insert() : add a new node in the begging of list
   insert(value){
     let node = new Node(value);
-    node.next = this.head;
-    this.head = node;
-    // return the new list after insert values
+    this.head = node.next;
+    node = this.head;
+    console.log('my newwwww head' , this.head);
     return this.head;
   }
-  /// I got some help from google to understand the consepet of include ==== https://www.geeksforgeeks.org/search-an-element-in-a-linked-list-iterative-and-recursive/ ===
-  ////* Checks whether the value x is present in linked list */
-  // bool search(Node* head, int x)
-  // {
-  //     Node* current = head; // Initialize current
-  //     while (current != NULL)
-  //     {
-  //         if (current->key == x)
-  //             return true;
-  //         current = current->next;
-  //     }
-  //     return false;
-  // }
-=======
-    constructor(){
-        this.head = null;
-    }
-
-//// we use insert() to add node at head of list /// I got some help from google to understand the conspet of insert
-   insert(value){
-       let node = new Node(value);
-      node.next = this.head;
-      this.head =node;
-      // return the new list after insert values
-      return this.head;
-   } 
->>>>>>> e55230895d12abf22abef23dd131af4281b2d9a2
-
   /// so in include we check if the value is in the list or not and return true/false depend of the result of checking
-  includes(value){
-    let currentvalue = this.head;
-    while(currentvalue){
-      if(currentvalue.value === value){
+  include(value){
+    let targetValue = this.head;
+    while(targetValue){
+      if(targetValue.value === value){
         return true;
       }
-      currentvalue = currentvalue.next;
+      targetValue = targetValue.next;
     }
     return false;
   }
-
-<<<<<<< HEAD
-  //    toString(){
-=======
-append(value){
-  let node = new Node(value);  // add new node // the node equal the first node in the list 
-  if(!this.head){ // if the node is empty
-      this.head = node;
-      return this.head;
-  }  
-  let currentNode = this.head;
-//   console.log(' current value  type' , typeof currentNode);
-  while(currentNode.next){
-      currentNode = currentNode.next;
+  // ====== to print out our list values /////
+  toString(){
+    let node = this.head;
+    let values = [];
+    while(node){
+      values.push(node.value);
+      node = node.next;
+    }
+    for (let i = 0; i < values.length; i++) {
+      let printValues =  values[i] + '->';
+      console.log('prinnnnnnnnnnt' , printValues);
+      return printValues;
+    }
+    console.log('my vaaaalue' , values);
+    return values;
   }
-  console.log('current nodeee' , currentNode)
-  currentNode.next = node;
-//   console.log('nodeee value' , node);
-  return this.head;
 }
->>>>>>> e55230895d12abf22abef23dd131af4281b2d9a2
 
-}
 
 module.exports = LinkList;

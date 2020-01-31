@@ -13,3 +13,6 @@ this challang is took time because the conspet it was not clear to me
 ## API
 insert () : to add a new node at the head of the list
 include() : it's return true/false depend on checking if the value is exist/found in the list or not 
+toString() : to print out the value of list as string
+================
+## I write sammary for each linked list prparty in whiteBourd 
