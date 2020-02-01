@@ -70,13 +70,20 @@ class LinkList {
   insertBefore(value, newVal){
     let newNode = new Node(value);
     let currentNode = this.head;
+    if(currentNode.value === newVal){
+      this.head = newNode ;
+      this.head.next = currentNode;
+      return this;
+    }
     while(currentNode.next){
-      if(this.head.value === value){
-        currentNode = newNode;
-        currentNode.next = currentNode;
+      // let storeNode= currentNode.next;
+      if(currentNode.next.value === newVal){
+        currentNode.next = newNode;
       }
       currentNode = currentNode.next;
     }
+    // storeNode = currentNode.next;
+    console.log('my thiiiiiiiiiiiis' , this);
     return this;
 
   }
@@ -84,14 +91,17 @@ class LinkList {
   insertAfter(value, newVal){
     let newNode = new Node(value);
     let currentNode = this.head;
-    while(this.head.value !== newVal){
+    while(currentNode.next){
+      if (currentNode.value === newVal) {
+        currentNode.next = newNode;
+        newNode.next = currentNode.next.next;
+      }
       currentNode = currentNode.next;
     }
-    currentNode.next = newNode;
-    newNode.next = currentNode.next.next;
-    console.log('-------------' , currentNode.next.next);
+    console.log('-------------' , this.head.next);
     return this;
   }
+
 }
 
 
