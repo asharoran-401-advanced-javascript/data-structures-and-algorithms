@@ -13,6 +13,7 @@ describe('Linked lis Module' , () =>{
   let newValue = 'some value';
   let newNode = new Node();
   newNode.value = newValue;
+
   it('insert()' , () =>{
     let  list = new LL();
     let newList = list.head;
@@ -26,6 +27,7 @@ describe('Linked lis Module' , () =>{
     console.log('value of new node ' , newNode.value);
     expect(newNode.value).toEqual(newValue);
   });
+
   describe('include()' , () =>{
     let list = new LL();
     // let currentNode = list.head;
@@ -40,6 +42,7 @@ describe('Linked lis Module' , () =>{
       expect(list.include('test value')).toBeFalsy();
     });
   });
+
   it('toString()' , () =>{
     let list = new LL();
     let values = [];
@@ -48,4 +51,53 @@ describe('Linked lis Module' , () =>{
     // let printValue = this.head;
     expect(list.toString()).toEqual(values);
   });
+
+  it('append()' , () =>{
+    let list = new LL();
+    let myList = list.head;
+    expect(myList).toBeNull();
+    // let newNode = this.head;/
+    let newValue = 'test value';
+    list.append(newValue);
+    expect(list.head.value).toEqual(newValue);
+    console.log('my list after append LLL' ,myList );
+
+  });
+  it(' insert a new node before  a spicific node', () => {
+    let list = new LL() ;
+    list.insert(1);
+    list.insert(2);
+    list.insert(3);
+    list.insertBefore(2 , 4);
+    expect(list.head.next.value).toEqual(4);
+  });
+
+  it(' insert a new node before the first node of a linked list', () => {
+    let list = new LL() ;
+    list.insert(1);
+    list.insert(2);
+    list.insert(3);
+    list.insertBefore(1 , 4);
+    expect(list.head.value).toEqual(4);
+  });
+
+
+  it(' insert  a new node after spicific node ', () => {
+    let list = new LL() ;
+    list.insert(1);
+    list.insert(2);
+    list.insert(3);
+    list.insertAfter(2 , 4);
+    expect(list.head.next.next.value).toEqual(4);
+  });
+
+  it(' insert new node at the end of list', () => {
+    let list = new LL() ;
+    list.insert(1);
+    list.insert(2);
+    list.insert(3);
+    list.insertAfter(3 , 4);
+    expect(list.head.next.next.next.value).toEqual(4);
+  });
+
 });
