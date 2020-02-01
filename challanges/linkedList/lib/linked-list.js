@@ -20,7 +20,7 @@ class LinkList {
       currentNode = currentNode.next;
     }
     currentNode.next = node;
-    console.log('my newwwww head' , node);
+    // console.log('my newwwww head' , node);
     return this;
   }
   // ===== so in include(): we check if the value is in the list or not and return true/false depend of the result of checking
@@ -44,10 +44,10 @@ class LinkList {
     }
     for (let i = 0; i < values.length; i++) {
       let printValues =  values[i] + '->';
-      console.log('prinnnnnnnnnnt' , printValues);
+      // console.log('prinnnnnnnnnnt' , printValues);
       return printValues;
     }
-    console.log('my vaaaalue' , values);
+    // console.log('my vaaaalue' , values);
     return values;
   }
   //======== append(): add a new node in the end of the list  ======//
@@ -62,7 +62,7 @@ class LinkList {
       currentNode = currentNode.next;
     }
     currentNode.next = newNode;
-    console.log('my list after add new node append()' , currentNode);
+    // console.log('my list after add new node append()' , currentNode);
     return this;
 
   }
@@ -83,7 +83,7 @@ class LinkList {
       currentNode = currentNode.next;
     }
     // storeNode = currentNode.next;
-    console.log('my thiiiiiiiiiiiis' , this);
+    // console.log('my thiiiiiiiiiiiis' , this);
     return this;
 
   }
@@ -98,7 +98,7 @@ class LinkList {
       }
       currentNode = currentNode.next;
     }
-    console.log('-------------' , this.head.next);
+    // console.log('-------------' , this.head.next);
     return this;
   }
 

@@ -3,7 +3,7 @@
 
 const LL = require('../lib/linked-list.js');
 const Node = require('../lib/node.js');
-//////////// fellow the demo
+
 describe('Linked lis Module' , () =>{
   it('constructor the head will be null' , () =>{
     let list = new LL();
@@ -60,11 +60,11 @@ describe('Linked lis Module' , () =>{
     let newValue = 'test value';
     list.append(newValue);
     expect(list.head.value).toEqual(newValue);
-    console.log('my list after append LLL' ,myList );
+    // console.log('my list after append LLL' ,myList );
 
   });
   //////////// I have problem in my test I will fix it as soon as passible
-  it(' insert a new node before  a spicific node', () => {
+  it(' insertBefore ():add  a new node before  a spicific node', () => {
     let list = new LL() ;
     // let newList = list.head;
     list.insert(1);
@@ -73,7 +73,7 @@ describe('Linked lis Module' , () =>{
     expect(list.head.next.value).toEqual(2);
   });
 
-  it(' insert a new node before the first node of a linked list', () => {
+  it(' insertBefore() : add  a new node before the first node of a linked list', () => {
     let list = new LL() ;
     // let newList = list.head;
     list.insert(1);
@@ -83,7 +83,7 @@ describe('Linked lis Module' , () =>{
   });
 
 
-  it(' insert  a new node after spicific node ', () => {
+  it(' insertAfter () :add  a new node after spicific node ', () => {
     let list = new LL() ;
     // let newList = list.head;
     list.insert(1);
@@ -92,7 +92,7 @@ describe('Linked lis Module' , () =>{
     expect(list.head.next.value).toEqual(2);
   });
 
-  it(' insert new node at the end of list', () => {
+  it('insertAfter() : inser t new node at the end of list', () => {
     let list = new LL() ;
     // let newList = list.head;
     list.insert(1);
