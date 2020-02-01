@@ -1,7 +1,7 @@
 // eslint-disable-next-line strict
 'use strict';
 
-const LL = require('../lib/linked-list.js');
+const LL = require('../lib/11-merge.js');
 const Node = require('../lib/node.js');
 
 describe('Linked lis Module', () => {
@@ -132,6 +132,21 @@ describe('Linked lis Module', () => {
     console.log('===== nthFromEn greater than the length =====', list.nthFromEnd(6).value);
     // eslint-disable-next-line no-undefined
     expect(list.nthFromEnd(6).value).toEqual(undefined);
+  });
+  it('ll-merge() : zipped two linked list togather' , () =>{
+    let listOne = new LL();
+    let listTwo = new LL();
+    let zippedList = new LL();
+    listOne.insert(1);
+    listOne.insert(2);
+    listOne.insert(3);
+    listTwo.insert(5);
+    listTwo.insert(9);
+    listTwo.insert(10);
+    zippedList.mergeLists(listOne ,listTwo);
+    console.log('========= my first list ' , listOne.head.value);
+    console.log('========= my second list' , listTwo.head.value);
+    // expect(listOne.mergeLists(listOne ,listTwo).head.next.next.next.value).toEqual(5);
   });
 
 });

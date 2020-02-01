@@ -143,7 +143,7 @@ class LinkList {
     let listTwoLength = list2.head;
     let list2Next;
     let list1Next;
-    while(listOneLength.next && listTwoLength.next ){
+    while(listOneLength !== null && listTwoLength !== null ){
       list1Next = listOneLength.next;
       list2Next = listTwoLength.next;
       // at the end of each list we add the head to another list

@@ -1,11 +1,12 @@
-# Challenge Summary
-<!-- Short summary or background information -->
+# Code Challenge: Class 08
+## Challenge Summary
+mergeLists (): takes two linked lists as arguments. Zips the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. 
+O(n) ---> search to the end of the list
+O(1) ----> addinal node.
 
 ## Challenge Description
-<!-- Description of the challenge -->
+to connect the list to each ather
 
-## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## Solution
-<!-- Embedded whiteboard image -->
+## I write it in the whiteBourd 

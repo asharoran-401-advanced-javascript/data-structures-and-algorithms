@@ -102,27 +102,27 @@ class LinkList {
     return this;
   }
 
-nthFromEnd(k){  // step 1 : callcolate the list length
- let currentNode = this.head;
- let counter = 1;
-let kthNode;
-//if 0 or negative value of k
-if(k <= 0) return 'not Exist';
+  nthFromEnd(k){  // step 1 : callcolate the list length
+    let currentNode = this.head;
+    let counter = 1;
+    let kthNode;
+    //if 0 or negative value of k
+    if(k <= 0) return 'not Exist';
 
-while(currentNode){
-if(counter === k) {
-  kthNode = this.head; // equal 1
-}
-else if(counter - k > 0){
-kthNode = kthNode.next;
-} else if (k > counter) {
- return "Exception";
-}
-counter++;
-currentNode = currentNode.next;
-}
-return kthNode;
-}
+    while(currentNode){
+      if(counter === k) {
+        kthNode = this.head; // equal 1
+      }
+      else if(counter - k > 0){
+        kthNode = kthNode.next;
+      } else if (k > counter) {
+        return 'Exception';
+      }
+      counter++;
+      currentNode = currentNode.next;
+    }
+    return kthNode;
+  }
   // }
   ////////// --------- another solution I work on it ---------- ///////
   // let listArr = [];
