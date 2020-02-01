@@ -137,6 +137,26 @@ class LinkList {
   // }
   // return reverseArr;
 
+
+  mergeLists(list1, list2){
+    let listOneLength = list1.head;
+    let listTwoLength = list2.head;
+    let list2Next;
+    let list1Next;
+    while(listOneLength !== null && listTwoLength !== null ){
+      list1Next = listOneLength.next;
+      list2Next = listTwoLength.next;
+      // at the end of each list we add the head to another list
+      listOneLength.next = listTwoLength;
+      listTwoLength.next = listOneLength;
+
+      listOneLength = list1Next;
+      listTwoLength = list2Next;
+    }
+    console.log('======My ZIPPED list =======' , listOneLength);
+    return listOneLength;
+  }
+
 }
 
 
