@@ -38,14 +38,19 @@ describe('Queue data structure' , () =>{
   it('Enqueue() :', ()=>{
     let newQueue = new stackAndQueue.Queue();
     newQueue.enqueue(5);
-    expect(newQueue.front.value).toEqual(5);
+    newQueue.enqueue(4);
+    console.log('=========' , newQueue.front.value);
+    expect(newQueue.front.value).toEqual(4);
   });
 
   it('Dequeue() :' , () =>{
     let newQueue = new stackAndQueue.Queue();
     newQueue.enqueue(5);
+    newQueue.enqueue(4);
     newQueue.dequeue();
-    expect(newQueue.front.value).toEqual(5);
+    // newQueue.dequeue();
+    console.log('+++++++' , newQueue.front);
+    expect(newQueue.front).toEqual(null);
 
   });
   it('peek():' , ()=>{

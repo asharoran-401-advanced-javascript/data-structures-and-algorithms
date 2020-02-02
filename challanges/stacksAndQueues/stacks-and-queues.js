@@ -59,11 +59,11 @@ class Queue {
     this.front = newNode;
   }
   dequeue(){
-    if(this.front === null){
+    if(this.front === null && this.rear === null){
       return null;
     }
-    let deletedNode = this.rear.value;
-    this.rear.next = this.rear;
+    let deletedNode = this.front.value; // i delete the first node
+    this.front = this.front.next;
     return deletedNode;
   }
   peek(){
