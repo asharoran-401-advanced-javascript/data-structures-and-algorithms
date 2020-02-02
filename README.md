@@ -42,5 +42,11 @@
 ## Code Challange 8 - Merge two linked lists.
 
 * (pull Request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/8]
-* (whiteBoard) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/code8-ll-merge.jpg]
+* (whiteBoard) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/code8-ll-merge.jpg] 
+
+======================================================================
+
+## Code Challange 10 - Stacks and Queues.
+* (pull Request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/13]
+* (whiteBoard) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/stack-and-queue/assets/code-10-stack-queue.jpg]
 
