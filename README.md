@@ -54,5 +54,5 @@
 
 ## Code Challange 11 - Implement a Queue using two Stacks.
 * (pull Request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/14]
-* (whiteBoard) : ![alt text](http://assets/queue-by-twoStack.jpg)
+* (whiteBoard) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/queue-by-twoStack.jpg]
 
