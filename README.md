@@ -60,6 +60,6 @@
 
 ## Code Challange 12 - First-in, First out Animal Shelter.
 
-* (pull Request) : []
-* (whiteBoard) : []
-![alt text](/mnt/c/Users/std6/codefellows/401/data-structures-and-algorithms/assets/animal-shelter.jpg)
+* (pull Request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/16]
+* (whiteBoard) : 
+![alt text](https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/fifo-animal-shelter/assets/animal-shelter.jpg)
