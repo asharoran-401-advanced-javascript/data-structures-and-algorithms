@@ -56,3 +56,10 @@
 * (pull Request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/14]
 * (whiteBoard) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/queue-by-twoStack.jpg]
 
+================================================
+
+## Code Challange 12 - First-in, First out Animal Shelter.
+
+* (pull Request) : []
+* (whiteBoard) : []
+![alt text](/mnt/c/Users/std6/codefellows/401/data-structures-and-algorithms/assets/animal-shelter.jpg)
