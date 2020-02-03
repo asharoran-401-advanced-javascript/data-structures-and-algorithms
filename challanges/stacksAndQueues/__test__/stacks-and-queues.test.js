@@ -66,3 +66,33 @@ describe('Queue data structure' , () =>{
 
   });
 });
+
+describe('PseudoQueue' , ()=>{
+  it('enqueue() : in my PseudoQueue function' , () =>{
+    let newQueue = new stackAndQueue.PseudoQueue();
+    let values = [3,8,5,16];
+    newQueue.enqueue(values[2]);
+    newQueue.enqueue(values[1]);
+    newQueue.enqueue(values[0]);
+    expect(newQueue.stackOne.top.value).toEqual(values[0]);
+    expect(newQueue.stackOne.top.next.value).toEqual(values[1]);
+    expect(newQueue.stackOne.top.next.next.value).toEqual(values[2]);
+  });
+  it(' dequeue() : in my PseudoQueue function' , () =>{
+    let newQueue = new stackAndQueue.PseudoQueue();
+    let values = [8,5,16];
+    newQueue.enqueue(values[2]);
+    newQueue.enqueue(values[1]);
+    newQueue.enqueue(values[0]);
+    let values2 = [
+      newQueue.dequeue(),
+      newQueue.dequeue(),
+      newQueue.dequeue(),
+    ];
+    console.log('==================' , values2);
+    expect(values[0]).toEqual(8);
+    expect(values[1]).toEqual(5);
+    expect(values[2]).toEqual(16);
+
+  });
+});

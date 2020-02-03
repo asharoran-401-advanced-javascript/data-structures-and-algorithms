@@ -26,3 +26,16 @@ the repeting and writing classes and the test
 * peek () : When you peek you will view the top Node in the queue.
 * front : This is the front/first Node of the queue
 * Reae : This is the rear/last Node of the queue.
+
+====================================================
+## Code Challange 11 - Queue By Using Stack
+
+## Summary
+- Create a brand new PseudoQueue class. Do not use an existing Queue.
+- this PseudoQueue class will implement (the two methods listed below),
+-  but will internally only utilize 2 Stack objects. 
+- Ensure that you create your class with the following methods:
+
+* enqueue(value) which inserts value into the PseudoQueue, using a first-in, first-out approach.
+* dequeue() which extracts a value from the PseudoQueue, using a first-in, first-out approach.
+The Stack instances have only push, pop, and peek methods. You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor. 
