@@ -57,5 +57,5 @@
 ======================================================
 
 ## Code Challange 13 - Multi-bracket Validation.
-* (pull Request): []
+* (pull Request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/18]
 * (white Board): ![Alt text](assets/code-13-multiBracket.jpg)
