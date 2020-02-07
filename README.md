@@ -54,8 +54,17 @@
 * (pull Request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/14]
 * (whiteBoard) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/queue-by-twoStack.jpg]
 
+================================================
+
+## Code Challange 12 - First-in, First out Animal Shelter.
+
+* (pull Request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/16]
+* (whiteBoard) : 
+![alt text](assets/animal-shelter.jpg)
+=======
 ======================================================
 
 ## Code Challange 13 - Multi-bracket Validation.
-* (pull Request): []
+* (pull Request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/18]
 * (white Board): ![Alt text](assets/code-13-multiBracket.jpg)
+
