@@ -20,6 +20,14 @@ describe('Stack data Structure' , () =>{
     newStack.pop();
     // expect(newStack.top.value).toEqual(null);
   });
+
+  it('pop() in empty Stack:' , () =>{
+    let newStack = new stackAndQueue.Stack();
+    newStack.pop();
+    expect(newStack.top).toEqual(null);
+  });
+
+
   it('peek():' , ()=>{
     let newStack = new stackAndQueue.Stack();
     newStack.push(5);
@@ -51,8 +59,14 @@ describe('Queue data structure' , () =>{
     // newQueue.dequeue();
     console.log('+++++++' , newQueue.front);
     expect(newQueue.front).toEqual(null);
-
   });
+
+  it('Dequeue()  in empty Queue :' , () =>{
+    let newQueue = new stackAndQueue.Queue();
+    newQueue.dequeue();
+    expect(newQueue.front).toEqual(null);
+  });
+
   it('peek():' , ()=>{
     let newQueue = new stackAndQueue.Queue();
     newQueue.enqueue(5);
@@ -63,7 +77,6 @@ describe('Queue data structure' , () =>{
   it('isEmpty():' , () =>{
     let newQueue = new stackAndQueue.Queue();
     expect(newQueue.isEmpty()).toBe(true);
-
   });
 });
 
