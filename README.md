@@ -62,4 +62,4 @@
 
 * (pull Request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/16]
 * (whiteBoard) : 
-![alt text](https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/fifo-animal-shelter/assets/animal-shelter.jpg)
+![alt text](assets/animal-shelter.jpg)
