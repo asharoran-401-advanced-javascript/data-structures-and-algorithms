@@ -77,5 +77,5 @@
 =======
 ## Code challange 16 - FizzBuzz Tree 
 
-* (pull request) : []
-* (white Board) : ![alt text]()
+* (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/20]
+* (white Board) : ![alt text](assets/fizzbuzzTree.jpg)
