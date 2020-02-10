@@ -84,5 +84,5 @@
 ============================================
 ## Code Challange 17 -  breadth first traversal 
 
-* (pull request) : []
-* (white Board) : ![alt text]()
+* (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/21]
+* (white Board) : ![alt text](assets/breadth-trevarsal.jpg)
