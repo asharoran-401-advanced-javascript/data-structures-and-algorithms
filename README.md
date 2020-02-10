@@ -75,4 +75,7 @@
 * (pull Request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/19]
 * (White Board) : ![Alt text](assets/Tree-code15.jpg)
 =======
+## Code challange 16 - FizzBuzz Tree 
 
+* (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/20]
+* (white Board) : ![alt text](assets/fizzbuzzTree.jpg)
