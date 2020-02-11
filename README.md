@@ -79,3 +79,10 @@
 
 * (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/20]
 * (white Board) : ![alt text](assets/fizzbuzzTree.jpg)
+
+==================================================================
+
+## Code Challenge 18 - find-maximum-binary-tree
+
+* (pull request) : []
+* (white Board) : ![alt text]()
