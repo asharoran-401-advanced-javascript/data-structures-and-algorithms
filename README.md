@@ -79,3 +79,10 @@
 
 * (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/20]
 * (white Board) : ![alt text](assets/fizzbuzzTree.jpg)
+
+
+============================================
+## Code Challange 17 -  breadth first traversal 
+
+* (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/21]
+* (white Board) : ![alt text](assets/breadth-trevarsal.jpg)
