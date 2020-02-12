@@ -1,11 +1,13 @@
 # Challenge Summary
-<!-- Short summary or background information -->
+Write an instance method called find-maximum-value. Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
 
-## Challenge Description
-<!-- Description of the challenge -->
+
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+O(n) : beacuse we do search in our array and push it in the array then sort it from lower o higher value then return thr pop array 
 
 ## Solution
-<!-- Embedded whiteboard image -->
+we do search in the array 
+our array and push it in the array then sort it from lower o higher value then return thr pop array 
+
+![alt text](assets/maximum-value-Tree.jpg)
