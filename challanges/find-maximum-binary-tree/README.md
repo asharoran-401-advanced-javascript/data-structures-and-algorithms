@@ -10,7 +10,7 @@ O(n) : beacuse we do search in our array and push it in the array then sort it f
 we do search in the array 
 our array and push it in the array then sort it from lower o higher value then return thr pop array 
 
-![alt text](assets/maximum-value-Tree.jpg)
+ UML : ![alt text](assets/maximum-value-Tree.jpg)
 
 # Note 
 I work in this method on the breadth search file
