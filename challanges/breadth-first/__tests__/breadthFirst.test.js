@@ -3,6 +3,7 @@
 
 const Node = require('../../tree/node.js');
 const Breadthfirst = require('../breadthFirst.js');
+// const SearchTree = require('../breadthFirst.js');
 
 describe('Breadth First Traversal Tree ()', ()=>{
   let tree = null;
@@ -37,6 +38,10 @@ describe('Breadth First Traversal Tree ()', ()=>{
   it('return null because I dont have tree ', ()=>{
     let FailTree = new Breadthfirst();
     expect(FailTree.breadthTraversal()).toBeNull();
+  });
+  it('Maximum Value in BinaryTree', ()=>{
+    console.log(tree.findMaximumValue());
+    expect(tree.findMaximumValue()).toEqual(11);
   });
 
 });

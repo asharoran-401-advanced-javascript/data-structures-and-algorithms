@@ -54,6 +54,25 @@ class BinaryTree {
     _walk(this.root);
     return output;
   }
+  findMaximumValue(){
+    let output = [];
+    let _walk = (myNode) =>{ //Arrow function
+      output.push(myNode.value); // D (Read the data First)
+      if(myNode.leftchild){
+        _walk(myNode.leftchild); // call _walk function with node left arrgument
+      }
+      if(myNode.rightchild){
+        _walk(myNode.rightchild); // call _walk function with node right arrgument
+      }
+    };
+    _walk(this.root);
+    output.sort();
+
+    console.log( 'output pppppoooopp' ,output);
+    return output.pop();
+
+  }
+
 }
 
 class BinarySearchTree extends BinaryTree { // the node is less than root is in the left and the node greater than is on the right

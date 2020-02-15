@@ -70,7 +70,6 @@
 
 
 ========================================================
-
 ## Code Challange 15 - Tree 
 * (pull Request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/19]
 * (White Board) : ![Alt text](assets/Tree-code15.jpg)
@@ -80,9 +79,17 @@
 * (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/20]
 * (white Board) : ![alt text](assets/fizzbuzzTree.jpg)
 
-
 ============================================
+
 ## Code Challange 17 -  breadth first traversal 
 
 * (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/21]
 * (white Board) : ![alt text](assets/breadth-trevarsal.jpg)
+
+==================================================================
+
+## Code Challenge 18 - find-maximum-binary-tree
+
+* (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/22]
+* (white Board) : ![alt text](assets/maximum-value-Tree.jpg)
+=======
