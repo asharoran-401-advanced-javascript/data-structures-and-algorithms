@@ -104,4 +104,4 @@
 ## Code Challenge 27 - Merge Sort
 
 * (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/25]
-* (white Board): ![alt text](assets/mergeSort.jpg)
+* (white Board): ![alt text](assets/merge-sort.jpg)
