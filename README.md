@@ -104,4 +104,4 @@
 ## Code Challenge 27 - Merge Sort
 
 * (pull request): []
-* (white Board): ![alt text]()
+* (white Board): ![alt text](assets/mergeSort.jpg)
