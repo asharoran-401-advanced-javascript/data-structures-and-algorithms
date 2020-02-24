@@ -92,4 +92,9 @@
 
 * (pull request) : [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/22]
 * (white Board) : ![alt text](assets/maximum-value-Tree.jpg)
-=======
+
+===================================================================
+
+## Code Challenge 26 - Insertion Sort
+* (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/24]
+* (white Board): ![alt text](assets/code-challenge-26.jpg)
