@@ -43,7 +43,9 @@ ALGORITHM Merge(left, right, arr)
 
 ## White Board (UML):
  UML: ![alt text](assets/merge-sort.jpg)
- 
+
+ [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/merge-sort/assets/merge-sort.jpg]
+
 
 ## Efficiency
  - Time: O(n log n)
