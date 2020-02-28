@@ -105,3 +105,10 @@
 
 * (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/25]
 * (white Board): ![alt text](assets/merge-sort.jpg)
+
+====================================================================
+
+## Code Challenge 29 - Quick Sort 
+
+* (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/26]
+* (white Board): ![alt text](assets/quickSort.png)
