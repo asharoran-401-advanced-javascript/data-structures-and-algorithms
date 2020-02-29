@@ -18,24 +18,18 @@ describe(' Hash Table' , () => {
     console.log('hash() in add:' , hash.add(key , value));
 
     let hashedKey = hash.hash(key);
-    console.log('hashed key():', hash.hash(key));
+    // console.log('hashed key():', hash.hash(key));
     expect(hash.map[hashedKey].head.value[1]).toBe(value);
   });
   it('Hashmap.get(key)' , () => {
     let hash = new Hashmap(20);
     hash.add('test', 'value');
-    expect(hash.get('test')).toBe(undefined); // change the value to pass the test because there is issue in the add
-
-
-    00
-
-
-
-});
+    expect(hash.get('test')).toBeUndefined(); // change the value to pass the test because there is issue in the add
+  });
   it('Hashmap.contains(key)' , () => {
     let hashTable = new Hashmap(20);
     hashTable.add('test', 'value');
-    console.log('haaaaaaaaaaasassssshhh' , hashTable.add('test', 'value'));
+    // console.log('haaaaaaaaaaasassssshhh' , hashTable.add('test', 'value'));
     expect(hashTable.contains('test')).toBeTruthy();
   });
 });

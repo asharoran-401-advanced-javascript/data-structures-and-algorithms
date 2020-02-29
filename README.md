@@ -117,5 +117,5 @@
 
 ## Code Challenge 30 - Hash Table
 
-* (pull request): []
+* (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/27]
 *(white Board): ![alt text](assets/hashtable-30.jpg)

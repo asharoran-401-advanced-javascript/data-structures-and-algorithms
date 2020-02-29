@@ -51,7 +51,7 @@ class HashMap{
     if(!this.map[hashedKey]){
       let list = new LinkedList();
       list.add([key,value]);
-      console.log('add in the function(_):' , list.add([key,value]));
+      //   console.log('add in the function(_):' , list.add([key,value]));
       this.map[hashedKey] = list;
     } else {
       this.map[hashedKey].add([key,value]); // add a linked list in the two setuation to make it ready from the beginning
