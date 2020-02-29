@@ -108,7 +108,14 @@
 
 ====================================================================
 
-## Code Challenge 29 - Quick Sort 
+## Code Challenge 28 - Quick Sort 
 
 * (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/26]
 * (white Board): ![alt text](assets/quickSort.png)
+
+=====================================================================
+
+## Code Challenge 30 - Hash Table
+
+* (pull request): []
+*(white Board): ![alt text](assets/hashtable-30.jpg)
