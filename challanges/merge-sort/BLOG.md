@@ -42,7 +42,7 @@ ALGORITHM Merge(left, right, arr)
 [8, 4, 23, 42, 16, 15]
 
 ## White Board (UML):
- UML: ![alt text](assets/merge-sort.jpg)
+ UML: ![alt text](../../assets/merge-sort.jpg)
 
  [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/blob/merge-sort/assets/merge-sort.jpg]
 
