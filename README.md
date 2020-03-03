@@ -131,6 +131,6 @@
 
 ## Code Challenge 33 - Left Join two hash table 
 
-* (pull request): []
+* (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/30]
 
 * ( white Board): ![alt text](assets/leftJoin.png)
