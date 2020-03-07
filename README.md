@@ -129,8 +129,18 @@
 
 =====================================================================
 
+
+## Code Challenge 32 - Tree intersection
+
+* (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/29]
+* (white Board): [assets/tree-intersection.jpg]
+
+=================================================================
 ## Code Challenge 33 - Left Join two hash table 
 
 * (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/30]
 
 * ( white Board): ![alt text](assets/leftJoin.png)
+ ![alt text](assets/left-Join-wb.jpg)
+=======
+====================================================================
