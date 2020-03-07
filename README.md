@@ -131,5 +131,5 @@
 
 ## Code Challenge 32 - Tree intersection
 
-* (pull request): []
-* (white Board): []
+* (pull request): [https://github.com/asharoran-401-advanced-javascript/data-structures-and-algorithms/pull/29]
+* (white Board): [assets/tree-intersection.jpg]
